@@ -1,5 +1,12 @@
-* { word-break: break-all; margin: 0px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgb(167, 249, 255);}
-
+* { word-break: break-all; margin: 0px; font-family: 'Anton', sans-serif; color: rgb(167, 249, 255);}
+@font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/assets/fonts/anton-latin-400-normal.woff2) format(woff2);
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
 body {
     margin: 0px;
     background: rgb(234, 240, 255);  
@@ -32,7 +39,6 @@ body {
             display: flex;
             flex-direction: row;
             align-items: center;
-            font-family: Impact;
             justify-content: center;
             flex-basis: 0;
             margin: 0px auto 0px auto;
@@ -72,7 +78,6 @@ body {
         .headerElement2 {
             display: flex;
             align-items: center;
-            font-family: Impact;
             background: rgb(0, 0, 34);
             border-radius: 2px;
             a {
@@ -102,7 +107,6 @@ body {
             display: flex;
             flex-direction: row;
             align-items: center;
-            font-family: Impact;
             justify-content: center;
             flex-basis: 0;
             margin: 0px auto 0px auto;
@@ -160,7 +164,6 @@ h1 {
         a {
             text-align: center;
             color: rgb(4, 18, 63);
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             text-decoration: none;
             text-shadow: 
                 2px 2px rgb(186, 190, 203);
