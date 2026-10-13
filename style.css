@@ -272,6 +272,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    object-fit: contain;
     margin: 50px;
     .gridBox {
         display: flex;
@@ -280,6 +281,7 @@ h1 {
         height: 500px;
         background: green;
         justify-content: center;
+        object-fit: contain;
         flex-direction: column;
         border-radius: 50px;
         flex-grow: 1;
@@ -291,10 +293,10 @@ h1 {
             flex-grow: 1;
                 img {
                     position: relative;
-                    object-fit: cover;
-                    object-position: center;
+                    object-fit: contain;
                     inset: 0;
                     height: 100%;
+                    width: 100%;
                     border-radius: 50px;
                     flex-grow: 1;
                 }
