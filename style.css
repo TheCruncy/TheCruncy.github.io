@@ -267,3 +267,43 @@ h1 {
         margin: 20px 50px 0px 50px;
     }
 }
+
+.gridMain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+    .gridBox {
+        display: flex;
+        position: relative;
+        margin: 10px;
+        height: 500px;
+        background: green;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 50px;
+        flex-grow: 1;
+        .gridImage {
+            position: relative;
+            height: 80%;
+            object-fit: contain;
+            margin: 10px;
+            flex-grow: 1;
+                img {
+                    position: relative;
+                    object-fit: cover;
+                    object-position: center;
+                    inset: 0;
+                    height: 100%;
+                    border-radius: 50px;
+                    flex-grow: 1;
+                }
+        }
+        p {
+            margin: 10px;
+            font-family: impact;
+            font-size: 50px;
+            flex-grow: 1;
+        }
+    }
+}
