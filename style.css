@@ -281,7 +281,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     object-fit: contain;
-    margin: 50px;
+    margin: 10px 50px;
     .gridBox {
         display: flex;
         position: relative;
